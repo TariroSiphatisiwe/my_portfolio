@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&family=Luckiest+Guy&family=Nerko+One&family=Poppins:wght@300;600&family=Zhi+Mang+Xing&display=swap');
+.logo{
+    font-family:'Zhi Mang Xing', cursive;
+font-size: 2rem;
+}
+
+img{
+    height: 3.5em;
+}
+
+.nav_bar{
+display:flex;
+align-items: center;
+gap: 35rem;
+margin-left: 70px;
+width:100%;
+}
+
+
+
