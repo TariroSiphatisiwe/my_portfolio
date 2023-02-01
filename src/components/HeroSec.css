@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Englebert&display=swap');
 
+.hero-sec-div{
+    display:flex;
+    width:100%;
+}
 .intro-sec{
+    display: flex;
+    justify-content: center;
     font-family: 'Englebert', sans-serif;
     font-size: 8em;
     line-height: 1em;
     text-align:center;
-    margin-left: 300px;
+    margin-right: 0;
     margin-top: 50px;
 }
 
@@ -15,16 +21,11 @@
 
 }
 
-.hero-sec-div{
-    height:100%;
-    width:100%;
-
-}
-
 .intro-sec2{
-    width:15em;
-    margin-left: 60em;
-    margin-top: 4em;
+    width:20em;
+    position:relative;
+    right:10em;
+    top:18em;
     font-weight: bolder;
     text-transform: capitalize;
     animation: color-animation 4s linear infinite;
@@ -43,10 +44,13 @@
     100%  {color: var(--color-1)}
   }
 
-  .intro-sec3{
-    font-family: 'Barrio', cursive;
-    font-size: 12em;
-    color:#C0C7A3;
-    margin: 0px;
-    z-index: -5;
-}
+  .circle-png{
+    position: relative;
+    z-index: 1;
+    bottom: 1em;
+    left: 13em;
+    height: 20em;
+    margin:0;
+    padding:0;
+    clear:both;
+  }
