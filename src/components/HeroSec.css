@@ -2,38 +2,40 @@
 
 .hero-sec-div{
     display:flex;
-    width:100%;
 }
 .intro-sec{
-    display: flex;
+    display:block;
     justify-content: center;
     font-family: 'Englebert', sans-serif;
-    font-size: 8em;
+    font-size: 7.8em;
     line-height: 1em;
     text-align:center;
     margin-right: 0;
     margin-top: 50px;
 }
+.rn{
+    height:fit-content;
 
+}
 .intro-sec-div{
-    height:200px;
     width:70em;
 
 }
 
 .intro-sec2{
-    width:20em;
+    width:18em;
     margin:0px;
     height: fit-content;
     position:absolute;
+    z-index:4;
     right:10em;
-    top:25em;
-    font-weight: bolder;
+    top:25.8em;
+    font-weight: bold;
     text-transform: capitalize;  
     animation: color-animation 15s linear infinite;
-    --color-1: hsl(105, 7%, 57%);
-    --color-2: #bfa7bf;
-    --color-3: #b08398;
+    --color-1: hsl(0, 0%, 0%);
+    --color-2: hsl(0, 0%, 0%);
+    --color-3: hsl(0, 0%, 0%);
 }
 
 
@@ -82,20 +84,21 @@
 .brac2{
     position: relative;
     top: 1.65em;
-    right:2.2em;
+    right:2.4em;
 }
 
 .arrows{
     position:relative;
-    z-index: 1;
     height:12em;
     top:7em;
 }
 .arrow1-png{
-    right:15em;
-    top:20em;
+    z-index:2;
+    right:14.9em;
+    top:21.2em;
 }
 .arrow2-png{
+    z-index: 2;
     right:25em;
     top:12em;
 
