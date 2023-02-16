@@ -3,8 +3,7 @@ import './HeroSec.css'
 import circle from './circle.svg'
 import arrow1 from './pngs/arrow1.svg'
 import arrow2 from './pngs/arrow2.svg'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation"
 
 const HeroSection = () => {
 
