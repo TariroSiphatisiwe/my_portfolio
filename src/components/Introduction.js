@@ -14,8 +14,8 @@ const Introduction = () => {
             </p>
             <p className='text text-par2'>I am currently looking for a new Role as a Developer.</p>
             </RoughNotationGroup>
-            <button className='button bn1'>Linkden</button>
-            <button className='button bn2'>Github</button>
+            <a href='https://www.linkedin.com/in/tariro-siphatisiwe-shumbayaonda-60913319a/'><button className='button bn1'>Linkden</button></a>
+            <a href='https://github.com/TariroSiphatisiwe'><button className='button bn2'>Github</button></a>
         </div>
 
     )
