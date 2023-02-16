@@ -1,13 +1,14 @@
 import './App.css'
 import Navigation from './components/Navigation'
 import HeroSection from './components/HeroSection'
-import CustomCursor from 'custom-cursor-react';
-import 'custom-cursor-react/dist/index.css';
+import CustomCursor from 'custom-cursor-react'
+import Introduction from './components/Introduction'
+import 'custom-cursor-react/dist/index.css'
 import './components/HeroSec.css'
 
 const App = ()=> {
   return (
-    <div>
+    <div className='app-container'>
       <Navigation/>
       <HeroSection/>
       <CustomCursor
@@ -22,6 +23,7 @@ const App = ()=> {
       }}
       targetOpacity={0.5}
     />
+    <Introduction/>
     </div>
   )
 }
