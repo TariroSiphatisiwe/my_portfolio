@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import HeroSection from './components/HeroSection'
 import CustomCursor from 'custom-cursor-react'
 import Introduction from './components/Introduction'
+import Portfolio from './components/Portfolio'
 import 'custom-cursor-react/dist/index.css'
 import './components/HeroSec.css'
 
@@ -24,6 +25,7 @@ const App = ()=> {
       targetOpacity={0.5}
     />
     <Introduction/>
+    <Portfolio/>
     </div>
   )
 }
