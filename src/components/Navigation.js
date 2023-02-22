@@ -7,7 +7,6 @@ const Navigation = () => {
     return (
         <nav className='nav_bar'>
             <h2 className='logo'>Tari</h2>
-           <AiOutlineMenu className='svg_outline'/>
             <img src={flower} alt='flower_canva'/>
         </nav>
 

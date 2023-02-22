@@ -12,8 +12,11 @@ img{
 .nav_bar{
 display:flex;
 align-items: center;
-gap: 35rem;
+gap: 71rem;
 margin-left: 60px;
+overflow: hidden;
+position:sticky;
+top:0;
 }
 
 
