@@ -2,7 +2,7 @@ html,body {
   margin: 0;
   height: 100%;
   cursor: none;
-  background-color: white ;
+  background-color: #ebe9e9 ;
   scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
