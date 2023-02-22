@@ -15,10 +15,9 @@ const HeroSection = () => {
 
         <div className='hero-sec-div'>
             <RoughNotationGroup show={true}>
-            <img src={circle} alt='circle png' className='png circle-png' />
-            <div className='intro-sec-div' ><p className='intro-sec'>  <RoughNotation className='rn' type="highlight"  animate={true} color="#b0c77d" order="2">Welcome</RoughNotation> to the play ground of Tariro Shumbayaonda </p></div>
+            <div className='intro-sec-div' ><p className='intro-sec'>  <RoughNotation className='rn' type="box"  animate={true} color="#FFC6C6" order="2">Welcome</RoughNotation>  <RoughNotation className='rn' type="circle"  animate={true} color="#000000" order="2">to</RoughNotation> my play ground.</p></div>
             <p className='intro-sec2'>
-                <RoughNotation type="box" color="#b0c77d" order="1" padding={2}>
+                <RoughNotation type="box" color="#000000" order="1" padding={2}>
                     Hey there! I'm Tari, A full-stack Software Developer.And this is my corner of the internet. 
                 </RoughNotation>
             </p>

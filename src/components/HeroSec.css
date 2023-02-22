@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Englebert&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Bowlby+One&family=Englebert&family=Poppins:wght@300&display=swap');
 
 .hero-sec-div{
     display:flex;
@@ -6,7 +6,7 @@
 .intro-sec{
     display:block;
     justify-content: center;
-    font-family: 'Englebert', sans-serif;
+    font-family: 'Bowlby One', cursive;
     text-transform: uppercase;
     font-size: 7.8em;
     line-height: 1em;
@@ -14,13 +14,18 @@
     margin-right: 0;
     margin-top: 50px;
     margin-bottom: 100px;
+    position:relative;
+   left:2em;
+    
+    
 }
 .rn{
     height:fit-content;
 
 }
 .intro-sec-div{
-    width:100em;
+
+    width:50em;
 
 }
 
@@ -31,7 +36,7 @@
     position:absolute;
     z-index:4;
     right:10em;
-    top:25.8em;
+    top: 25em;
     font-weight: bold;
     text-transform: capitalize;  
     animation: color-animation 15s linear infinite;
@@ -71,23 +76,7 @@
 	transform: rotate(0) scale(1);
     
   }
-  .brac{
-    font-size: 8em;
-    font-family: 'Englebert', sans-serif;
-   
-}
-
-.brac1{
-    position: relative;
-    right:4.6em;
-    top: 1.65em;
-}
-
-.brac2{
-    position: relative;
-    top: 1.65em;
-    right:2.4em;
-}
+  
 
 .arrows{
     position:relative;
@@ -97,7 +86,7 @@
 .arrow1-png{
     z-index:2;
     right:14.9em;
-    top:21.2em;
+    top:20em;
 }
 .arrow2-png{
     z-index: 2;
