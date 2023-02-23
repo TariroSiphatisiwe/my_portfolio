@@ -13,10 +13,10 @@ const App = ()=> {
       <Navigation/>
       <HeroSection/>
       <CustomCursor
-      targets={['.circle-png','.intro-sec2','.arrow1-png','.button']}
+      targets={['.circle-png','.intro-sec2','.arrow1-png','.button','.two','.one','.three']}
       customClass='custom-cursor'
       dimensions={50}
-      fill='#eb9bc8'
+      fill='#E7ABAB'
       smoothness={{
         movement: 0.2,
         scale: 0.1,
