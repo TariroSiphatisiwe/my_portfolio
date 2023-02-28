@@ -3,7 +3,6 @@ import './portfolio.css'
 import Card from './card'
 import AOS from 'aos'
 import 'aos/dist/aos.css' 
-
 import img1 from './pngs/png1.png'
 import img2 from './pngs/png2.png'
 import img3 from './pngs/png3.png'

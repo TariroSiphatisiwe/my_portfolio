@@ -1,44 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Bowlby+One&family=Englebert&family=Poppins:wght@300&display=swap');
 
-.hero-sec-div{
-    display:flex;
+.hero-sec-div {
+    display: flex;
 }
-.intro-sec{
-    display:block;
+
+.intro-sec {
+    display: block;
     justify-content: center;
     font-family: 'Bowlby One', cursive;
     text-transform: uppercase;
     font-size: 7.8em;
     line-height: 1em;
-    text-align:center;
+    text-align: center;
     margin-right: 0;
     margin-top: 50px;
-    position:relative;
+    position: relative;
     margin-bottom: 100px;
-   left:2.4em;
-    
-    
-}
-.rn{
-    height:fit-content;
+    left: 2.4em;
 
-}
-.intro-sec-div{
-
-    width:50em;
 
 }
 
-.intro-sec2{
-    width:18em;
-    margin:0px;
+.rn {
     height: fit-content;
-    position:absolute;
-    z-index:4;
-    right:15em;
+
+}
+
+.intro-sec-div {
+
+    width: 50em;
+
+}
+
+.intro-sec2 {
+    width: 18em;
+    margin: 0px;
+    height: fit-content;
+    position: absolute;
+    z-index: 4;
+    right: 15em;
     top: 36em;
     font-weight: bold;
-    text-transform: capitalize;  
+    text-transform: capitalize;
     animation: color-animation 15s linear infinite;
     --color-1: hsl(0, 0%, 0%);
     --color-2: hsl(0, 0%, 0%);
@@ -47,49 +50,96 @@
 
 
 @keyframes color-animation {
-    0%    {color: var(--color-1)}
-    32%   {color: var(--color-1)}
-    33%   {color: var(--color-2)}
-    65%   {color: var(--color-2)}
-    66%   {color: var(--color-3)}
-    99%   {color: var(--color-3)}
-    100%  {color: var(--color-1)}
-  }
+    0% {
+        color: var(--color-1)
+    }
 
-.hero-sec-div:hover>.intro-sec2:not(:hover){
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.hero-sec-div:hover>.intro-sec2:not(:hover) {
     filter: blur(4px);
 }
 
-  .circle-png{
+.circle-png {
     position: relative;
     z-index: 1;
     bottom: 1em;
     left: 9em;
     height: 20em;
-    margin:0;
-    padding:0;
-    clear:both;
+    margin: 0;
+    padding: 0;
+    clear: both;
     transform: rotate(15deg);
-  }
-
-  .circle-png:hover{
-	transform: rotate(0) scale(1);
-    
-  }
-  
-
-.arrows{
-    position:relative;
-    height:30em;
-    top:7em;
 }
-.arrow2-png{
+
+.circle-png:hover {
+    transform: rotate(0) scale(1);
+
+}
+
+
+.arrows {
+    position: relative;
+    height: 30em;
+    top: 7em;
+}
+
+.arrow2-png {
     z-index: 2;
-    right:5em;
-    top:11em;
+    right: 5em;
+    top: 11em;
 
 }
 
-.intro-span{
+.intro-span {
     color: #E7ABAB;
+}
+
+@media screen and (max-width: 950px) {
+
+    .intro-sec {
+        font-size: 3.8em;
+        line-height: 1em;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 100px;
+        position: relative;
+        margin-bottom: 100px;
+        left: 0.6em;
+    }
+
+    .intro-sec2 {
+        right:3.8em;
+        top: 27rem;
+    }
+
+    .arrow2-png {
+        z-index: 2;
+        right: 3em;
+        top: 11em;
+    
+    }
 }

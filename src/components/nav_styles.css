@@ -19,4 +19,16 @@ position:sticky;
 top:0;
 }
 
+@media screen and (max-width: 900px) {
+    .nav_bar{
+        gap:14rem;
+        margin-left:45px;
+        position: relative;
+    }
+    img{
+        height:2.5em;
+   
+    }
+}
+
 
