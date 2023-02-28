@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import 'custom-cursor-react/dist/index.css'
 import './components/HeroSec.css'
 
+
 const App = ()=> {
   return (
     <div className='app-container'>
