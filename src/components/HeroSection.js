@@ -22,7 +22,7 @@ const HeroSection = () => {
                 </RoughNotation>
             </p>
             <img src={arrow2} alt="arrow png" className="png arrows arrow2-png" />
-            <p class='black-60'>Testingggg Tachyons</p>
+        
             </RoughNotationGroup>
         </div>
 
